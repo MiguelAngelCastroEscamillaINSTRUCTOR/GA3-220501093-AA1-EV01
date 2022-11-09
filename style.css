@@ -1,6 +1,6 @@
 :root{
-    --color1: #fff6e8;
-    --color2: #dbf6f9;
+    --color1: #6ec0b2;
+    --color2: #fff;
     --color3: #ecfafc;
     --color4: #a7a39e;
 }
@@ -10,46 +10,17 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    background: var(--color1);
-}
-p{
+div{
     display: inline-block;
-    vertical-align: top;
-    padding-top: 60px;
-}
-table{
-    display: inline-block;
-    margin: 10px 0;
-    border-spacing: 0;
-}
-table thead tr th{
     background: var(--color1);
-}
-table thead th{
+    color: var(--color2);
+    margin-left: 20px;
     padding: 10px;
+    border-radius: 5px;
 }
-table tbody td{
-    text-align: center;
+form, input[type="submit"], pre{
+    margin-top: 10px;
 }
-table tbody tr:nth-child(2n+1){
-    background: var(--color2);
-}
-table tbody tr:nth-child(2n){
-    background: var(--color3);
-}
-table thead tr th,
-table tbody tr td{
-    border: 1px solid var(--color4);
-}
-table thead tr th{
-    border-right-width: 0;
-}
-table tbody tr td{
-    border-top-width: 0;
-    border-right-width: 0;
-}
-table tbody tr td:last-child,
-table thead tr th:last-child{
-    border-right-width: 1px;
+label, input{
+    display: block;
 }
